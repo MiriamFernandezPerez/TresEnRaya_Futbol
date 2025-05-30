@@ -7,9 +7,9 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="E:/PAULA/Proyecto Intermodular - Proyecto Final (MONGODB)/TresEnRaya/PROY_NunezPaula/lib/json-20240303.jar"/>
-	<classpathentry kind="lib" path="E:/PAULA/Proyecto Intermodular - Proyecto Final (MONGODB)/TresEnRaya/PROY_NunezPaula/lib/mongodb-driver-sync-5.4.0.jar"/>
-	<classpathentry kind="lib" path="E:/PAULA/Proyecto Intermodular - Proyecto Final (MONGODB)/TresEnRaya/PROY_NunezPaula/lib/bson-5.4.0.jar"/>
-	<classpathentry kind="lib" path="E:/PAULA/Proyecto Intermodular - Proyecto Final (MONGODB)/TresEnRaya/PROY_NunezPaula/lib/mongodb-driver-core-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kelsi/git/TresEnRaya_Futbol/PROY_NunezPaula/lib/bson-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kelsi/git/TresEnRaya_Futbol/PROY_NunezPaula/lib/json-20240303.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kelsi/git/TresEnRaya_Futbol/PROY_NunezPaula/lib/mongodb-driver-core-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kelsi/git/TresEnRaya_Futbol/PROY_NunezPaula/lib/mongodb-driver-sync-5.4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

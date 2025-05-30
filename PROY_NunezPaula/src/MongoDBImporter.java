@@ -19,7 +19,7 @@ public class MongoDBImporter {
 
         // --- 1. Configuración de MongoDB ---
         // MongoDB se ejecuta en esta dirección y puerto
-        String connectionString = "mongodb+srv://mirindaww:Lj5OhY4wSVvGqkR9@cluster0.tmpuyqo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
+        String connectionString = "mongodb+srv://kelsioner:3zOSa7Jnw0iJUPY7@proyectointermodular.0czvebk.mongodb.net/?retryWrites=true&w=majority&appName=ProyectoIntermodular\r\n"; 
         String databaseName = "PlayerDB"; // Nombre de mi Base de Datos
         String collectionName = "players"; // Nombre de la colección
 
