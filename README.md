@@ -1,232 +1,140 @@
+⚽ Proyecto 3EnRaya_Futbol
+🎯 Propósito y Alcance
+Este documento ofrece una introducción de alto nivel al proyecto 3EnRaya_Futbol, un juego de tres en raya con temática de fútbol que se integra con MongoDB para validar el conocimiento de los jugadores.
 
-# Proyecto 3EnRaya_Futbol
-
-## Propósito y Alcance
-
-Este documento ofrece una introducción de alto nivel al proyecto **3EnRaya_Futbol**, un juego de tres en raya con temática de fútbol que se integra con MongoDB para validar el conocimiento de los jugadores.  
 El sistema combina la jugabilidad tradicional del tres en raya con trivia de fútbol, requiriendo que los jugadores nombren futbolistas reales que coincidan con combinaciones de categorías específicas para reclamar posiciones en el tablero.
 
-- Para información detallada sobre la aplicación principal del juego, consulta la sección **Aplicación del Juego**.
-- Para detalles específicos sobre la gestión de la base de datos, consulta **Sistema de Gestión de Datos**.
-- Para instrucciones de configuración del proyecto, consulta **Configuración e Instalación del Proyecto**.
+📌 Accesos rápidos:
 
----
+🔗 Aplicación del Juego
 
-## Concepto del Juego
+🔗 Sistema de Gestión de Datos
 
-A diferencia del tres en raya tradicional donde los jugadores simplemente colocan X's y O's, este juego requiere que los jugadores demuestren su conocimiento de fútbol.
+🔧 Configuración del Proyecto
 
-Cada posición del tablero representa la intersección de dos categorías (por ejemplo, un equipo y una posición), y los jugadores deben introducir el nombre de un futbolista real que coincida con ambas categorías para reclamar esa casilla.
+🎮 Concepto del Juego
+A diferencia del tres en raya tradicional donde los jugadores simplemente colocan X y O, este juego requiere que los jugadores demuestren su conocimiento de fútbol.
 
----
+Cada celda del tablero representa la intersección de dos categorías (por ejemplo, un equipo y una posición), y los jugadores deben introducir el nombre de un futbolista real que coincida con ambas categorías para reclamar la casilla.
 
-## Mecánicas de Juego Principales
+🧩 Mecánicas de Juego Principales
+🔲 Tablero de 3x3 con combinaciones únicas.
 
-El juego genera una cuadrícula de 3x3 donde:
+📚 Categorías horizontales y verticales (equipos, posiciones, países, dorsales, edades).
 
-- **Categorías Horizontales**: Equipos, países, posiciones, números de camiseta o rangos de edad.
-- **Categorías Verticales**: Diferentes a las horizontales para crear intersecciones significativas.
-- **Validación del Jugador**: Cada movimiento se valida contra una base de datos MongoDB con más de 276 registros de jugadores reales.
-- **Condiciones de Victoria**: Reglas tradicionales del tres en raya + detección de "juego atascado" si no quedan movimientos válidos.
+🧠 Validación de futbolistas reales usando MongoDB con más de 276 registros.
 
----
+🏆 Reglas clásicas de victoria del tres en raya + detección de empate/atasco.
 
-## Arquitectura del Sistema
-
-```mermaid
+🏗️ Arquitectura del Sistema
+mermaid
+Copiar
+Editar
 graph TD
   A[Sistemas Externos] --> B[Capa de Importación de Datos]
   B --> C[Capa de Acceso a Datos]
   C --> D[Capa de Lógica del Juego]
   D --> E[Capa de Interfaz de Usuario]
-```
+🧱 Componentes Clave
+🖼️ FutbolEnRaya (Interfaz gráfica y lógica del juego)
+UI: JButton[3][3], JTextField, JLabel[]
 
----
+Estado: String[][] tablero, String turnoActual, Set jugadoresUsados
 
-## Componentes Clave
+Categorías: seleccionarCategoriasParaTableroJugable()
 
-### `FutbolEnRaya` (Interfaz gráfica y lógica del juego)
+Validación: manejarClick(), quedanOpcionesParaJugadorActual()
 
-- **Ventana Principal**: `JFrame`
-- **UI**: `JButton[3][3]`, `JTextField nombreJugadorField`, `JLabel[] categoriaLabels`
-- **Estado del Juego**: `String[][] tablero`, `String turnoActual`, `Set jugadoresUtilizadosEnPartida`
-- **Selección de Categorías**: `seleccionarCategoriasParaTableroJugable()`, `List[][] jugadoresDisponiblesPorCasilla`
-- **Validación de Movimientos**: `manejarClick(int fila, int columna)`, `quedanOpcionesParaJugadorActual()`
+🗄️ TicTacToeDB (Base de datos)
+precargarJugadores()
 
-### `TicTacToeDB` (Base de datos)
+getPlayersByCategories()
 
-- **Gestión de Jugadores**: `precargarJugadores()`, `getPlayersByCategories()`
+👤 Jugador (Modelo)
+nombre
 
-### `Jugador` (Modelo de datos)
+clubs: List<String>
 
-- Atributos: `String nombre`, `List clubs`
+📄 JsonManipulator
+Importación desde archivo local players.json
 
-### `JsonManipulator`
+☁️ MongoDBImporter
+Importación desde MongoDB Atlas
 
-- Importación desde base de datos local (`players.json`)
+🔁 Flujo del Juego y Validación de Movimientos
+🔄 Inicialización
+precargarJugadores(): Precarga todos los jugadores.
 
-### `MongoDBImporter`
+Se cargan los datos desde MongoDB (futbol_en_raya.jugadores).
 
-- Importación desde base de datos en la nube (MongoDB Atlas)
+seleccionarCategoriasParaTableroJugable(): Selección aleatoria de categorías válidas.
 
----
+Se llena la matriz jugadoresDisponiblesPorCasilla[3][3].
 
-## Flujo del Juego y Validación de Movimientos
+🎯 Movimiento del Jugador
+El jugador hace clic en una celda y escribe un nombre.
 
-Flujo del Juego y Validación de Movimientos
-Inicialización del Juego
-precargarJugadores(): Se encarga de precargar todos los jugadores disponibles.
+Se verifica si ya fue usado:
 
-Carga en memoria: Los datos de jugadores se cargan en memoria desde la base de datos.
+✅ Válido: marca celda, cambia turno, evalúa victoria.
 
-Obtención desde MongoDB: Los datos se recuperan de la colección futbol_en_raya.jugadores.
+❌ Inválido o repetido: penalización, cambio de turno.
 
-seleccionarCategoriasParaTableroJugable(): Se eligen aleatoriamente categorías horizontales y verticales válidas para el tablero.
+Se detecta si hay empate o "juego atascado".
 
-Inicialización de la matriz jugadoresDisponiblesPorCasilla[3][3]: Se rellena con jugadores válidos para cada casilla del tablero según las combinaciones de categorías.
+🧮 Sistema de Categorías y Generación del Tablero
+Tipos de Categorías
+Horizontales: PAIS, CLUB
 
-Intento de Movimiento del Jugador
-El jugador hace clic en una celda y escribe el nombre de un futbolista.
+Verticales: POSICION, DORSAL, PAIS, EDAD_RANGO
 
-Se verifica si ese jugador ya fue usado:
+🔧 Algoritmo de Selección
+Hasta 1000 intentos para generar tablero jugable.
 
-Si ya fue usado: Se muestra un mensaje de error y no se cambia el turno.
+Se eligen las 3 categorías más frecuentes (filas y columnas).
 
-Si no fue usado:
+Cada celda combina horizontal + vertical.
 
-Se consultan los jugadores válidos para esa celda.
+Se valida que cada celda tenga al menos un jugador.
 
-Se valida el nombre introducido:
+🧰 Pila Tecnológica y Dependencias
+🔧 Componente	🛠️ Tecnología	🧾 Versión	📌 Propósito
+Plataforma	Java SE	21	Base del proyecto
+UI	Swing	-	Interfaz gráfica
+Base de Datos	MongoDB	5.4.0	Jugadores y categorías
+Driver MongoDB	MongoDB Sync Driver	5.4.0	Conexión con MongoDB
+Formato Datos	JSON	20240303	Entrada/salida de datos
+Interno MongoDB	BSON	5.4.0	Almacenamiento binario
 
-Si es válido:
+📦 Librerías JAR
+bson-5.4.0.jar
 
-Se marca la celda.
+mongodb-driver-core-5.4.0.jar
 
-Se añade el jugador a la lista de usados.
+mongodb-driver-sync-5.4.0.jar
 
-Se evalúa si hay un ganador o empate:
+json-20240303.jar
 
-Si hay ganador o tablero lleno: Se muestra el mensaje final.
+🧬 Arquitectura de Datos
+Flujo de Datos
+Origen: Transfermarkt.es (manual)
 
-Si no: Se cambia el turno.
+Conversión: Archivo local players.json
 
-Si es inválido:
+Importación:
 
-El jugador es penalizado.
+JsonManipulator → local
 
-Se cambia el turno y se muestra un mensaje de error.
+MongoDBImporter → Atlas (nube)
 
-Se verifica si el jugador actual aún tiene opciones válidas en el tablero:
+Carga: Colección futbol_en_raya.jugadores
 
-Si no las tiene: Se indica que el juego está atascado.
+Caché: Datos cargados en memoria vía TicTacToeDB
 
-Si las tiene: El juego continúa normalmente
----
-
-## Sistema de Categorías y Generación del Tablero
-
-El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jugador válido.
-
-### Tipos de Categorías
-
-- **Horizontales**: `PAIS`, `CLUB`
-- **Verticales**: `POSICION`, `DORSAL`, `PAIS`, `EDAD_RANGO`
-
-### Algoritmo de Selección de Categorías
-Este algoritmo asegura que todas las celdas del tablero (3x3) tengan al menos un jugador válido disponible según las categorías seleccionadas:
-
-Función seleccionarCategoriasParaTableroJugable():
-
-Realiza un máximo de 1000 intentos para generar un tablero válido.
-
-Selección de tipos de categorías:
-
-Se generan pares de tipos de categoría (una para filas, otra para columnas).
-
-Se evita que ambos tipos sean iguales.
-
-Selección de valores concretos:
-
-Se eligen los 3 valores más frecuentes para cada tipo usando getMostFrequentValues().
-
-Población de celdas:
-
-Para cada celda del tablero, se combinan las categorías horizontal y vertical correspondientes.
-
-Se utiliza getPlayersByCategories() para obtener los jugadores válidos que coinciden con esa combinación.
-
-Se guarda la lista de jugadores válidos para cada celda.
-
-Validación del tablero:
-
-Solo se considera un tablero válido si las 9 celdas tienen al menos un jugador posible.
-
----
-
-## Pila Tecnológica y Dependencias
-
-| Componente           | Tecnología              | Versión     | Propósito                                  |
-|----------------------|-------------------------|-------------|---------------------------------------------|
-| Plataforma           | Java SE                 | 21          | Plataforma principal                        |
-| UI Framework         | Swing                   | N/A         | Interfaz gráfica                            |
-| Base de Datos        | MongoDB                 | 5.4.0       | Almacenamiento de jugadores                 |
-| Driver MongoDB       | MongoDB Sync Driver     | 5.4.0       | Operaciones síncronas de base de datos      |
-| Formato de Datos     | JSON                    | 20240303    | Importación/exportación de datos            |
-| Documentos Binarios  | BSON                    | 5.4.0       | Formato interno de MongoDB                  |
-
-### Librerías JAR
-
-- `bson-5.4.0.jar`
-- `mongodb-driver-core-5.4.0.jar`
-- `mongodb-driver-sync-5.4.0.jar`
-- `json-20240303.jar`
-
----
-
-## Arquitectura de Datos
-
-Flujo de datos desde la fuente hasta la aplicación:
-Fuente de Datos Externa: La información proviene principalmente de transfermarkt.es (de forma manual).
-
-Extracción y Conversión:
-
-Se recopilan datos de jugadores de la Liga Española.
-
-Los datos se almacenan localmente en un archivo llamado players.json, con más de 276 registros.
-
-Importación de Datos:
-
-Se puede importar el archivo JSON usando dos componentes:
-
-JsonManipulator: Para bases de datos locales.
-
-MongoDBImporter: Para subir datos a una instancia en la nube (MongoDB Atlas).
-
-Carga en la Base de Datos:
-
-Los datos se almacenan en la colección futbol_en_raya.jugadores usando un esquema basado en documentos BSON.
-
-Carga en Caché de Aplicación:
-
-Al iniciar, se ejecuta precargarJugadores() para cargar todos los datos en memoria.
-
-Se guarda en la caché del componente TicTacToeDB para evitar múltiples consultas a la base de datos.
-
-Listas de Categorías Distintas:
-
-Durante la precarga, se generan listas con los posibles valores únicos de:
-
-Clubs
-
-Nacionalidades
-
-Posiciones
-
-Dorsales
-
-### Estructura del archivo `players.json`
-
-```json
+🗃️ Estructura del Archivo players.json
+json
+Copiar
+Editar
 {
   "nombre": "String",
   "nacionalidad": "String",
@@ -235,27 +143,22 @@ Dorsales
   "numero_camiseta": "String",
   "edad": Integer
 }
-```
+🚀 Puntos de Entrada y Clases Principales
+📦 Clase	💡 Propósito	🔑 Métodos Clave
+FutbolEnRaya	Aplicación principal y UI	main(), manejarClick(), iniciarNuevaPartida()
+TicTacToeDB	Conexión y operaciones en MongoDB	precargarJugadores(), getPlayersByCategories()
+JsonManipulator	Importar desde base de datos local	Desde players.json
+MongoDBImporter	Importar hacia la nube (MongoDB Atlas)	Cargar JSON a MongoDB
 
----
+▶️ Inicio de la Aplicación
+La ejecución comienza desde:
 
-## Puntos de Entrada y Clases Principales
-
-| Clase            | Propósito                                | Métodos Clave                                      |
-|------------------|-------------------------------------------|----------------------------------------------------|
-| `FutbolEnRaya`   | Aplicación principal y UI                 | `main()`, `manejarClick()`, `iniciarNuevaPartida()`|
-| `TicTacToeDB`    | Conexión y consultas a MongoDB            | `precargarJugadores()`, `getPlayersByCategories()` |
-| `JsonManipulator`| Importación de base de datos local        | Importación desde `players.json`                   |
-| `MongoDBImporter`| Importación desde MongoDB Atlas           | JSON a MongoDB en la nube                          |
-
----
-
-## Inicio de la Aplicación
-
-La aplicación se inicia desde:
-
-```java
+java
+Copiar
+Editar
 FutbolEnRaya.main()
-```
+Esto:
 
-Esto inicializa la conexión con la base de datos y lanza la interfaz gráfica Swing en el Event Dispatch Thread.
+Inicializa la conexión con la base de datos.
+
+Lanza la interfaz gráfica (Swing) en el Event Dispatch Thread.
