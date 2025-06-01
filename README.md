@@ -72,27 +72,49 @@ graph TD
 
 ## Flujo del Juego y Validación de Movimientos
 
-Inicialización del Juego
-    A[precargarJugadores ( )] --> B[Cargar todos los jugadores en memoria]
-    B --> C[Datos de la colección de jugadores]
-    C --> D[seleccionarCategoriasParaTableroJugable()]
-    D --> E[Inicializar jugadoresDisponiblesPorCasilla[3][3]]
+```mermaid
+graph TD
+  A[precargarJugadores()]
+  B[Cargar todos los jugadores en memoria]
+  C[Datos de la colección de jugadores]
+  D[seleccionarCategoriasParaTableroJugable()]
+  E[Inicializar jugadoresDisponiblesPorCasilla[3][3]]
 
-Intento de Movimiento del Jugador
-    F [Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
-    G -- Sí --> H[Error, sin cambio de turno]
-    G -- No --> I[Obtener jugadores válidos para celda]
-    I --> J[Lista de jugadores válidos]
-    J -- Válido --> K[Marcar celda, añadir a usados]
-    K --> L[hayGanador() o tableroLleno()]
-    L -- No --> M[Cambiar turno]
-    L -- Sí --> N[Mostrar ganador]
-    M --> O[Actualizar UI]
-    J -- Inválido --> P[Penalización, cambiar turno]
-    P --> Q[Mostrar error]
-    K --> R[quedanOpcionesParaJugadorActual()]
-    R -- No --> S[Mostrar "juego atascado"]
-    R -- Sí --> T[Continuar juego]
+  A --> B --> C --> D --> E
+
+  F[Click en celda + nombre del jugador]
+  G{¿Jugador ya usado?}
+  H[Error, sin cambio de turno]
+  I[Obtener jugadores válidos para celda]
+  J[Lista de jugadores válidos]
+
+  K[Marcar celda, añadir a usados]
+  L{¿Ganador o tablero lleno?}
+  M[Cambiar turno]
+  N[Mostrar ganador]
+  O[Actualizar UI]
+
+  P[Penalización, cambiar turno]
+  Q[Mostrar error]
+
+  R[quedanOpcionesParaJugadorActual()]
+  S[Mostrar "juego atascado"]
+  T[Continuar juego]
+
+  F --> G
+  G -- Sí --> H
+  G -- No --> I --> J
+
+  J -- Válido --> K --> L
+  L -- No --> M --> O
+  L -- Sí --> N
+
+  J -- Inválido --> P --> Q
+
+  K --> R
+  R -- No --> S
+  R -- Sí --> T
+
 
 ## Sistema de Categorías y Generación del Tablero
 
