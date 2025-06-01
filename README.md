@@ -73,15 +73,14 @@ graph TD
 ## Flujo del Juego y Validación de Movimientos
 
 ```mermaid
-graph TD
-  subgraph Inicialización del Juego
-    A[precargarJugadores()] --> B[Cargar todos los jugadores en memoria]
+Inicialización del Juego
+    A[precargarJugadores ( )] --> B[Cargar todos los jugadores en memoria]
     B --> C[Datos de la colección de jugadores]
     C --> D[seleccionarCategoriasParaTableroJugable()]
     D --> E[Inicializar jugadoresDisponiblesPorCasilla[3][3]]
   end
 
-  subgraph Intento de Movimiento del Jugador
+Intento de Movimiento del Jugador
     F[Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
     G -- Sí --> H[Error, sin cambio de turno]
     G -- No --> I[Obtener jugadores válidos para celda]
@@ -116,8 +115,8 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
 ### Algoritmo de Selección
 
 ```mermaid
-graph TD
-  A[seleccionarCategoriasParaTableroJugable()] --> B[Máximo 1000 intentos]
+
+  A[seleccionarCategoriasParaTableroJugable ( )] --> B[Máximo 1000 intentos]
   B --> C[Pares de Tipos de Categoría]
   C --> D{Evitar duplicados}
   D --> E[Seleccionar 3 valores por tipo]
@@ -136,7 +135,7 @@ graph TD
 | Componente           | Tecnología              | Versión     | Propósito                                  |
 |----------------------|-------------------------|-------------|---------------------------------------------|
 | Plataforma           | Java SE                 | 21          | Plataforma principal                        |
-| UI Framework         | Swing                   | N/A         | Interfaz gráfica                            |
+| UI Framework         | JFrame                  | N/A         | Interfaz gráfica                            |
 | Base de Datos        | MongoDB                 | 5.4.0       | Almacenamiento de jugadores                 |
 | Driver MongoDB       | MongoDB Sync Driver     | 5.4.0       | Operaciones síncronas de base de datos      |
 | Formato de Datos     | JSON                    | 20240303    | Importación/exportación de datos            |
@@ -154,7 +153,6 @@ graph TD
 ## Arquitectura de Datos
 
 ```mermaid
-graph TD
   A[Fuente de Datos Externa] --> B[Extracción manual de datos]
   B --> C[Transfermarkt.es]
   C --> D[Jugadores de la Liga Española]
