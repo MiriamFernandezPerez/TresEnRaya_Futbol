@@ -143,6 +143,7 @@ graph TD
   "numero_camiseta": "String",
   "edad": Integer
 }
+```
 
 ---
 
