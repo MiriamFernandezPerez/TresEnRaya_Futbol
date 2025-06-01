@@ -39,9 +39,9 @@ graph TD
   B --> C[Capa de Acceso a Datos]
   C --> D[Capa de Lógica del Juego]
   D --> E[Capa de Interfaz de Usuario]
+  ```
 
-
-### 🧱 Componentes Clave
+  ### 🧱 Componentes Clave
 
 * **🖼️ FutbolEnRaya** (Interfaz gráfica y lógica del juego)
     * **UI**: `JButton[3][3]`, `JTextField`, `JLabel[]`
@@ -144,4 +144,20 @@ graph TD
   "edad": Integer
 }
 
+---
 
+## 🚀 Puntos de Entrada y Clases Principales
+
+| 📦 Clase          | 💡 Propósito                       | 🔑 Métodos Clave                                |
+| :---------------- | :--------------------------------- | :---------------------------------------------- |
+| `FutbolEnRaya`    | Aplicación principal y UI          | `main()`, `manejarClick()`, `iniciarNuevaPartida()` |
+| `TicTacToeDB`     | Conexión y operaciones en MongoDB  | `precargarJugadores()`, `getPlayersByCategories()` |
+| `JsonManipulator` | Importar desde base de datos local | Desde `players.json`                            |
+| `MongoDBImporter` | Importar hacia la nube (MongoDB Atlas) | Cargar JSON a MongoDB                           |
+
+### ▶️ Inicio de la Aplicación
+
+La ejecución comienza desde:
+
+```java
+FutbolEnRaya.main()
