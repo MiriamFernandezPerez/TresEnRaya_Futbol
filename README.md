@@ -72,7 +72,7 @@ graph TD
 
 ## Flujo del Juego y Validación de Movimientos
 
-```mermaid
+
 Inicialización del Juego
     A[precargarJugadores ( )] --> B[Cargar todos los jugadores en memoria]
     B --> C[Datos de la colección de jugadores]
@@ -81,25 +81,20 @@ Inicialización del Juego
   end
 
 Intento de Movimiento del Jugador
-    F[Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
+    F [Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
     G -- Sí --> H[Error, sin cambio de turno]
     G -- No --> I[Obtener jugadores válidos para celda]
     I --> J[Lista de jugadores válidos]
-
     J -- Válido --> K[Marcar celda, añadir a usados]
     K --> L[hayGanador() o tableroLleno()]
     L -- No --> M[Cambiar turno]
     L -- Sí --> N[Mostrar ganador]
     M --> O[Actualizar UI]
-
     J -- Inválido --> P[Penalización, cambiar turno]
     P --> Q[Mostrar error]
-
     K --> R[quedanOpcionesParaJugadorActual()]
     R -- No --> S[Mostrar "juego atascado"]
     R -- Sí --> T[Continuar juego]
-  end
-```
 
 ---
 
@@ -114,8 +109,6 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
 
 ### Algoritmo de Selección
 
-```mermaid
-
   A[seleccionarCategoriasParaTableroJugable ( )] --> B[Máximo 1000 intentos]
   B --> C[Pares de Tipos de Categoría]
   C --> D{Evitar duplicados}
@@ -126,7 +119,6 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
   H --> I[Combinar vertical + horizontal]
   I --> J[Guardar jugadores válidos en celda]
   J --> K[Validar que todas las celdas tienen al menos 1 jugador]
-```
 
 ---
 
@@ -152,7 +144,6 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
 
 ## Arquitectura de Datos
 
-```mermaid
   A[Fuente de Datos Externa] --> B[Extracción manual de datos]
   B --> C[Transfermarkt.es]
   C --> D[Jugadores de la Liga Española]
@@ -170,7 +161,7 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
   N --> P[List nacionalidadesPosibles]
   N --> Q[List posicionesPosibles]
   N --> R[List dorsalesPosibles]
-```
+
 
 ### Estructura del archivo `players.json`
 
