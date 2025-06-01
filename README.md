@@ -72,13 +72,11 @@ graph TD
 
 ## Flujo del Juego y Validación de Movimientos
 
-
 Inicialización del Juego
     A[precargarJugadores ( )] --> B[Cargar todos los jugadores en memoria]
     B --> C[Datos de la colección de jugadores]
     C --> D[seleccionarCategoriasParaTableroJugable()]
     D --> E[Inicializar jugadoresDisponiblesPorCasilla[3][3]]
-  end
 
 Intento de Movimiento del Jugador
     F [Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
@@ -95,8 +93,6 @@ Intento de Movimiento del Jugador
     K --> R[quedanOpcionesParaJugadorActual()]
     R -- No --> S[Mostrar "juego atascado"]
     R -- Sí --> T[Continuar juego]
-
----
 
 ## Sistema de Categorías y Generación del Tablero
 
