@@ -73,36 +73,54 @@ graph TD
 
 ## Flujo del Juego y Validación de Movimientos
 
-```mermaid
-graph TD
-  subgraph Inicialización del Juego
-    A[precargarJugadores()] --> B[Cargar todos los jugadores en memoria]
-    B --> C[Datos de la colección de jugadores]
-    C --> D[seleccionarCategoriasParaTableroJugable()]
-    D --> E[Inicializar jugadoresDisponiblesPorCasilla[3][3]]
-  end
+Flujo del Juego y Validación de Movimientos
+Inicialización del Juego
+precargarJugadores(): Se encarga de precargar todos los jugadores disponibles.
 
-  subgraph Intento de Movimiento del Jugador
-    F[Click en celda + nombre del jugador] --> G{¿Jugador ya usado?}
-    G -- Sí --> H[Error, sin cambio de turno]
-    G -- No --> I[Obtener jugadores válidos para celda]
-    I --> J[Lista de jugadores válidos]
+Carga en memoria: Los datos de jugadores se cargan en memoria desde la base de datos.
 
-    J -- Válido --> K[Marcar celda, añadir a usados]
-    K --> L[hayGanador() o tableroLleno()]
-    L -- No --> M[Cambiar turno]
-    L -- Sí --> N[Mostrar ganador]
-    M --> O[Actualizar UI]
+Obtención desde MongoDB: Los datos se recuperan de la colección futbol_en_raya.jugadores.
 
-    J -- Inválido --> P[Penalización, cambiar turno]
-    P --> Q[Mostrar error]
+seleccionarCategoriasParaTableroJugable(): Se eligen aleatoriamente categorías horizontales y verticales válidas para el tablero.
 
-    K --> R[quedanOpcionesParaJugadorActual()]
-    R -- No --> S[Mostrar "juego atascado"]
-    R -- Sí --> T[Continuar juego]
-  end
-```
+Inicialización de la matriz jugadoresDisponiblesPorCasilla[3][3]: Se rellena con jugadores válidos para cada casilla del tablero según las combinaciones de categorías.
 
+Intento de Movimiento del Jugador
+El jugador hace clic en una celda y escribe el nombre de un futbolista.
+
+Se verifica si ese jugador ya fue usado:
+
+Si ya fue usado: Se muestra un mensaje de error y no se cambia el turno.
+
+Si no fue usado:
+
+Se consultan los jugadores válidos para esa celda.
+
+Se valida el nombre introducido:
+
+Si es válido:
+
+Se marca la celda.
+
+Se añade el jugador a la lista de usados.
+
+Se evalúa si hay un ganador o empate:
+
+Si hay ganador o tablero lleno: Se muestra el mensaje final.
+
+Si no: Se cambia el turno.
+
+Si es inválido:
+
+El jugador es penalizado.
+
+Se cambia el turno y se muestra un mensaje de error.
+
+Se verifica si el jugador actual aún tiene opciones válidas en el tablero:
+
+Si no las tiene: Se indica que el juego está atascado.
+
+Si las tiene: El juego continúa normalmente
 ---
 
 ## Sistema de Categorías y Generación del Tablero
@@ -114,21 +132,34 @@ El juego utiliza un algoritmo para asegurar que cada celda tenga al menos un jug
 - **Horizontales**: `PAIS`, `CLUB`
 - **Verticales**: `POSICION`, `DORSAL`, `PAIS`, `EDAD_RANGO`
 
-### Algoritmo de Selección
+### Algoritmo de Selección de Categorías
+Este algoritmo asegura que todas las celdas del tablero (3x3) tengan al menos un jugador válido disponible según las categorías seleccionadas:
 
-```mermaid
-graph TD
-  A[seleccionarCategoriasParaTableroJugable()] --> B[Máximo 1000 intentos]
-  B --> C[Pares de Tipos de Categoría]
-  C --> D{Evitar duplicados}
-  D --> E[Seleccionar 3 valores por tipo]
-  E --> F[getMostFrequentValues()]
-  F --> G[Para cada celda]
-  G --> H[getPlayersByCategories()]
-  H --> I[Combinar vertical + horizontal]
-  I --> J[Guardar jugadores válidos en celda]
-  J --> K[Validar que todas las celdas tienen al menos 1 jugador]
-```
+Función seleccionarCategoriasParaTableroJugable():
+
+Realiza un máximo de 1000 intentos para generar un tablero válido.
+
+Selección de tipos de categorías:
+
+Se generan pares de tipos de categoría (una para filas, otra para columnas).
+
+Se evita que ambos tipos sean iguales.
+
+Selección de valores concretos:
+
+Se eligen los 3 valores más frecuentes para cada tipo usando getMostFrequentValues().
+
+Población de celdas:
+
+Para cada celda del tablero, se combinan las categorías horizontal y vertical correspondientes.
+
+Se utiliza getPlayersByCategories() para obtener los jugadores válidos que coinciden con esa combinación.
+
+Se guarda la lista de jugadores válidos para cada celda.
+
+Validación del tablero:
+
+Solo se considera un tablero válido si las 9 celdas tienen al menos un jugador posible.
 
 ---
 
@@ -154,26 +185,44 @@ graph TD
 
 ## Arquitectura de Datos
 
-```mermaid
-graph TD
-  A[Fuente de Datos Externa] --> B[Extracción manual de datos]
-  B --> C[Transfermarkt.es]
-  C --> D[Jugadores de la Liga Española]
-  D --> E[players.json]
-  E --> F[276+ Registros]
-  F --> G[JsonManipulator]
-  F --> H[MongoDBImporter]
-  G --> I[precargarJugadores()]
-  H --> J[MongoDB Collection]
-  J --> K[futbol_en_raya.jugadores]
-  K --> L[Almacenamiento basado en documentos]
-  I --> M[Caché de la Aplicación]
-  M --> N[Caché de TicTacToeDB]
-  N --> O[List clubsPosibles]
-  N --> P[List nacionalidadesPosibles]
-  N --> Q[List posicionesPosibles]
-  N --> R[List dorsalesPosibles]
-```
+Flujo de datos desde la fuente hasta la aplicación:
+Fuente de Datos Externa: La información proviene principalmente de transfermarkt.es (de forma manual).
+
+Extracción y Conversión:
+
+Se recopilan datos de jugadores de la Liga Española.
+
+Los datos se almacenan localmente en un archivo llamado players.json, con más de 276 registros.
+
+Importación de Datos:
+
+Se puede importar el archivo JSON usando dos componentes:
+
+JsonManipulator: Para bases de datos locales.
+
+MongoDBImporter: Para subir datos a una instancia en la nube (MongoDB Atlas).
+
+Carga en la Base de Datos:
+
+Los datos se almacenan en la colección futbol_en_raya.jugadores usando un esquema basado en documentos BSON.
+
+Carga en Caché de Aplicación:
+
+Al iniciar, se ejecuta precargarJugadores() para cargar todos los datos en memoria.
+
+Se guarda en la caché del componente TicTacToeDB para evitar múltiples consultas a la base de datos.
+
+Listas de Categorías Distintas:
+
+Durante la precarga, se generan listas con los posibles valores únicos de:
+
+Clubs
+
+Nacionalidades
+
+Posiciones
+
+Dorsales
 
 ### Estructura del archivo `players.json`
 
