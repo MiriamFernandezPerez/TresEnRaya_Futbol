@@ -1,4 +1,4 @@
-# ⚽ Proyecto 3EnRaya_Futbol
+# ⚽ Proyecto TresEnRaya_Futbol
 
 ---
 
@@ -7,12 +7,6 @@
 Este documento ofrece una introducción de alto nivel al proyecto **3EnRaya_Futbol**, un juego de tres en raya con temática de fútbol que se integra con **MongoDB** para validar el conocimiento de los jugadores.
 
 El sistema combina la jugabilidad tradicional del tres en raya con **trivia de fútbol**, requiriendo que los jugadores nombren futbolistas reales que coincidan con combinaciones de categorías específicas para reclamar posiciones en el tablero.
-
-### 📌 Accesos rápidos:
-
-* 🔗 [Aplicación del Juego](#aplicación-del-juego)
-* 🔗 [Sistema de Gestión de Datos](#sistema-de-gestión-de-datos)
-* 🔗 [Configuración del Proyecto](#configuración-del-proyecto)
 
 ---
 

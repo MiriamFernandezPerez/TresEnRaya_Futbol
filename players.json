@@ -1,0 +1,4884 @@
+[
+  {
+    "_id": 1,
+    "numero_camiseta": 1,
+    "nombre": "Thibaut Courtois",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Alemania"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 33,
+    "clubs": [
+      "Genk",
+      "Chelsea",
+      "Atlético de Madrid",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 2,
+    "numero_camiseta": 13,
+    "nombre": "Andriy Lunin",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Ucrania"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 26,
+    "clubs": [
+      "Dnipro",
+      "Zorya Luhansk",
+      "Leganés",
+      "Real Valladolid",
+      "Real Oviedo",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 3,
+    "numero_camiseta": 26,
+    "nombre": "Fran González",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.4,
+    "edad": 19,
+    "clubs": [
+      "Cultural Leonesa",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 4,
+    "numero_camiseta": 2,
+    "nombre": "Dani Carvajal",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 12.0,
+    "edad": 33,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Bayer Leverkusen",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 5,
+    "numero_camiseta": 3,
+    "nombre": "Éder Militão",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 70.0,
+    "edad": 27,
+    "clubs": [
+      "São Paulo",
+      "Porto",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 6,
+    "numero_camiseta": 4,
+    "nombre": "David Alaba",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Austria"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 33,
+    "clubs": [
+      "Austria Wien",
+      "Bayern Múnich",
+      "1899 Hoffenheim",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 7,
+    "numero_camiseta": 5,
+    "nombre": "Jesús Vallejo",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 28,
+    "clubs": [
+      "Real Zaragoza",
+      "Eintracht Fráncfort",
+      "Real Madrid",
+      "Wolverhampton Wanderers",
+      "Granada"
+    ]
+  },
+  {
+    "_id": 8,
+    "numero_camiseta": 6,
+    "nombre": "Nacho Fernández",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 35,
+    "clubs": [
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 9,
+    "numero_camiseta": 12,
+    "nombre": "Eduardo Camavinga",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Francia",
+      "Angola"
+    ],
+    "valor_mercado_mill_eur": 90.0,
+    "edad": 22,
+    "clubs": [
+      "Rennes",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 10,
+    "numero_camiseta": 17,
+    "nombre": "Lucas Vázquez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 33,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Espanyol",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 11,
+    "numero_camiseta": 18,
+    "nombre": "Aurélien Tchouaméni",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Francia",
+      "Camerún"
+    ],
+    "valor_mercado_mill_eur": 100.0,
+    "edad": 25,
+    "clubs": [
+      "Girondins Burdeos",
+      "Mónaco",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 12,
+    "numero_camiseta": 19,
+    "nombre": "Dani Ceballos",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 28,
+    "clubs": [
+      "Real Betis",
+      "Real Madrid",
+      "Arsenal"
+    ]
+  },
+  {
+    "_id": 13,
+    "numero_camiseta": 20,
+    "nombre": "Fran García",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 25,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Rayo Vallecano",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 14,
+    "numero_camiseta": 22,
+    "nombre": "Antonio Rüdiger",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Alemania",
+      "Sierra Leona"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 32,
+    "clubs": [
+      "VfB Stuttgart",
+      "Roma",
+      "Chelsea",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 15,
+    "numero_camiseta": 23,
+    "nombre": "Ferland Mendy",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Francia",
+      "Senegal"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 30,
+    "clubs": [
+      "Le Havre",
+      "Olympique Lyon",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 16,
+    "numero_camiseta": 8,
+    "nombre": "Toni Kroos",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Alemania"
+    ],
+    "valor_mercado_mill_eur": 12.0,
+    "edad": 35,
+    "clubs": [
+      "Hansa Rostock",
+      "Bayern Múnich",
+      "Bayer Leverkusen",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 17,
+    "numero_camiseta": 10,
+    "nombre": "Luka Modrić",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Croacia"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 39,
+    "clubs": [
+      "Dinamo Zagreb",
+      "Zrinjski Mostar",
+      "Inter Zaprešić",
+      "Tottenham Hotspur",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 18,
+    "numero_camiseta": 14,
+    "nombre": "Federico Valverde",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 120.0,
+    "edad": 26,
+    "clubs": [
+      "Peñarol",
+      "Real Madrid Castilla",
+      "Deportivo La Coruña",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 19,
+    "numero_camiseta": 15,
+    "nombre": "Arda Güler",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "Turquía"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 20,
+    "clubs": [
+      "Gençlerbirliği",
+      "Fenerbahçe",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 20,
+    "numero_camiseta": 24,
+    "nombre": "Brahim Díaz",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España",
+      "Marruecos"
+    ],
+    "valor_mercado_mill_eur": 35.0,
+    "edad": 25,
+    "clubs": [
+      "Málaga",
+      "Manchester City",
+      "Real Madrid",
+      "AC Milan"
+    ]
+  },
+  {
+    "_id": 21,
+    "numero_camiseta": 7,
+    "nombre": "Vinicius Junior",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 180.0,
+    "edad": 24,
+    "clubs": [
+      "Flamengo",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 22,
+    "numero_camiseta": 11,
+    "nombre": "Rodrygo",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 110.0,
+    "edad": 24,
+    "clubs": [
+      "Santos",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 23,
+    "numero_camiseta": 21,
+    "nombre": "Joselu",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 35,
+    "clubs": [
+      "Celta de Vigo",
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "1899 Hoffenheim",
+      "Eintracht Fráncfort",
+      "Hannover 96",
+      "Stoke City",
+      "Deportivo La Coruña",
+      "Newcastle United",
+      "Deportivo Alavés",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 24,
+    "numero_camiseta": 25,
+    "nombre": "Kepa Arrizabalaga",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 30,
+    "clubs": [
+      "Athletic",
+      "Ponferradina",
+      "Real Valladolid",
+      "Chelsea",
+      "Real Madrid"
+    ]
+  },
+  {
+    "_id": 25,
+    "numero_camiseta": 1,
+    "nombre": "Marc-André ter Stegen",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Alemania"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 33,
+    "clubs": [
+      "Borussia Mönchengladbach",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 26,
+    "numero_camiseta": 13,
+    "nombre": "Iñaki Peña",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 26,
+    "clubs": [
+      "FC Barcelona B",
+      "Galatasaray",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 27,
+    "numero_camiseta": 26,
+    "nombre": "Ander Astralaga",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 21,
+    "clubs": [
+      "Athletic U19",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 28,
+    "numero_camiseta": 33,
+    "nombre": "Diego Kochen",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Estados Unidos",
+      "Venezuela",
+      "Perú"
+    ],
+    "valor_mercado_mill_eur": 0.3,
+    "edad": 19,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 29,
+    "numero_camiseta": 2,
+    "nombre": "João Cancelo",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Portugal"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 31,
+    "clubs": [
+      "Benfica B",
+      "Benfica",
+      "Valencia",
+      "Inter",
+      "Juventus",
+      "Manchester City",
+      "Bayern Múnich",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 30,
+    "numero_camiseta": 3,
+    "nombre": "Alejandro Balde",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España",
+      "Guinea-Bissau",
+      "República Dominicana"
+    ],
+    "valor_mercado_mill_eur": 40.0,
+    "edad": 21,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona B",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 31,
+    "numero_camiseta": 4,
+    "nombre": "Ronald Araujo",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 70.0,
+    "edad": 26,
+    "clubs": [
+      "Rentistas",
+      "Boston River",
+      "FC Barcelona B",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 32,
+    "numero_camiseta": 5,
+    "nombre": "Iñigo Martínez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 34,
+    "clubs": [
+      "Real Sociedad B",
+      "Real Sociedad",
+      "Athletic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 33,
+    "numero_camiseta": 15,
+    "nombre": "Andreas Christensen",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Dinamarca"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 29,
+    "clubs": [
+      "Bröndby IF U17",
+      "Chelsea U18",
+      "Chelsea",
+      "Borussia Mönchengladbach",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 34,
+    "numero_camiseta": 17,
+    "nombre": "Marcos Alonso",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 34,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Bolton Wanderers",
+      "Fiorentina",
+      "Sunderland",
+      "Chelsea",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 35,
+    "numero_camiseta": 23,
+    "nombre": "Jules Kounde",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Francia",
+      "Benín"
+    ],
+    "valor_mercado_mill_eur": 45.0,
+    "edad": 26,
+    "clubs": [
+      "Girondins Burdeos",
+      "Sevilla",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 36,
+    "numero_camiseta": 39,
+    "nombre": "Héctor Fort",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 7.5,
+    "edad": 18,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 37,
+    "numero_camiseta": 6,
+    "nombre": "Gavi",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 70.0,
+    "edad": 20,
+    "clubs": [
+      "Real Betis B",
+      "FC Barcelona Juvenil A",
+      "FC Barcelona B",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 38,
+    "numero_camiseta": 8,
+    "nombre": "Pedri",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 80.0,
+    "edad": 22,
+    "clubs": [
+      "Las Palmas",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 39,
+    "numero_camiseta": 18,
+    "nombre": "Oriol Romeu",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 33,
+    "clubs": [
+      "FC Barcelona Atlètic",
+      "Chelsea",
+      "Valencia",
+      "Southampton",
+      "Girona",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 40,
+    "numero_camiseta": 20,
+    "nombre": "Sergi Roberto",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 33,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 41,
+    "numero_camiseta": 21,
+    "nombre": "Frenkie de Jong",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Países Bajos"
+    ],
+    "valor_mercado_mill_eur": 70.0,
+    "edad": 28,
+    "clubs": [
+      "Willem II",
+      "AFC Ajax",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 42,
+    "numero_camiseta": 22,
+    "nombre": "İlkay Gündoğan",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Alemania",
+      "Turquía"
+    ],
+    "valor_mercado_mill_eur": 18.0,
+    "edad": 34,
+    "clubs": [
+      "VfL Bochum U19",
+      "1.FC Nürnberg",
+      "Borussia Dortmund",
+      "Manchester City",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 43,
+    "numero_camiseta": 30,
+    "nombre": "Marc Casadó",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 21,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 44,
+    "numero_camiseta": 32,
+    "nombre": "Fermín López",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 22,
+    "clubs": [
+      "FC Barcelona Juvenil A",
+      "Linares Deportivo",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 45,
+    "numero_camiseta": 9,
+    "nombre": "Robert Lewandowski",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Polonia"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 36,
+    "clubs": [
+      "Lech Poznań",
+      "Borussia Dortmund",
+      "Bayern Múnich",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 46,
+    "numero_camiseta": 11,
+    "nombre": "Raphinha",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "Brasil",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 50.0,
+    "edad": 28,
+    "clubs": [
+      "Vitória Guimarães",
+      "Sporting CP",
+      "Rennes",
+      "Leeds United",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 47,
+    "numero_camiseta": 14,
+    "nombre": "João Félix",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Portugal"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 25,
+    "clubs": [
+      "Benfica B",
+      "Benfica",
+      "Atlético de Madrid",
+      "Chelsea",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 48,
+    "numero_camiseta": 19,
+    "nombre": "Vitor Roque",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 40.0,
+    "edad": 19,
+    "clubs": [
+      "Cruzeiro EC",
+      "Athletico Paranaense",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 49,
+    "numero_camiseta": 27,
+    "nombre": "Lamine Yamal",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España",
+      "Guinea Ecuatorial"
+    ],
+    "valor_mercado_mill_eur": 90.0,
+    "edad": 17,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 50,
+    "numero_camiseta": 38,
+    "nombre": "Marc Guiu",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 18,
+    "clubs": [
+      "FC Barcelona Juvenil A",
+      "FC Barcelona Atlètic",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 51,
+    "numero_camiseta": 1,
+    "nombre": "Jan Oblak",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Eslovenia"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 32,
+    "clubs": [
+      "Olimpija Ljubljana",
+      "Benfica",
+      "SC Beira-Mar",
+      "SC Olhanense",
+      "UD Leiria",
+      "Rio Ave FC",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 52,
+    "numero_camiseta": 31,
+    "nombre": "Antonio Gomis",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.2,
+    "edad": 21,
+    "clubs": [
+      "Atlético Madrid B",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 53,
+    "numero_camiseta": 3,
+    "nombre": "César Azpilicueta",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 35,
+    "clubs": [
+      "CA Osasuna",
+      "Olympique Marsella",
+      "Chelsea",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 54,
+    "numero_camiseta": 15,
+    "nombre": "Stefan Savić",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Montenegro"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 34,
+    "clubs": [
+      "BSK Borca",
+      "FK Partizan",
+      "Manchester City",
+      "Fiorentina",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 55,
+    "numero_camiseta": 16,
+    "nombre": "Nahuel Molina",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 27,
+    "clubs": [
+      "Boca Juniors",
+      "Defensa y Justicia",
+      "Rosario Central",
+      "Udinese",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 56,
+    "numero_camiseta": 20,
+    "nombre": "Axel Witsel",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Bélgica",
+      "Martinica"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 36,
+    "clubs": [
+      "Standard de Lieja",
+      "Benfica",
+      "Zenit San Petersburgo",
+      "Tianjin Quanjian",
+      "Borussia Dortmund",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 57,
+    "numero_camiseta": 22,
+    "nombre": "Mario Hermoso",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 30,
+    "clubs": [
+      "Real Madrid C",
+      "Real Valladolid",
+      "Espanyol",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 58,
+    "numero_camiseta": 23,
+    "nombre": "Reinildo Mandava",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Mozambique"
+    ],
+    "valor_mercado_mill_eur": 12.0,
+    "edad": 31,
+    "clubs": [
+      "Ferroviário da Beira",
+      "Benfica B",
+      "Fafe",
+      "Sporting Covilhã",
+      "Belenenses",
+      "Lille",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 59,
+    "numero_camiseta": 2,
+    "nombre": "José María Giménez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 30,
+    "clubs": [
+      "Danubio FC",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 60,
+    "numero_camiseta": 4,
+    "nombre": "Soyüncü",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Turquía"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 29,
+    "clubs": [
+      "Altinordu",
+      "SC Freiburg",
+      "Leicester City",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 61,
+    "numero_camiseta": 5,
+    "nombre": "Rodrigo de Paul",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 31,
+    "clubs": [
+      "Racing Club",
+      "Valencia",
+      "Udinese",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 62,
+    "numero_camiseta": 6,
+    "nombre": "Koke",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 12.0,
+    "edad": 33,
+    "clubs": [
+      "Atlético Madrid B",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 63,
+    "numero_camiseta": 8,
+    "nombre": "Saúl Ñíguez",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 30,
+    "clubs": [
+      "Atlético Madrid B",
+      "Rayo Vallecano",
+      "Atlético de Madrid",
+      "Chelsea"
+    ]
+  },
+  {
+    "_id": 64,
+    "numero_camiseta": 14,
+    "nombre": "Marcos Llorente",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 30,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "Deportivo Alavés",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 65,
+    "numero_camiseta": 18,
+    "nombre": "Arthur Vermeeren",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Bélgica"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 20,
+    "clubs": [
+      "Amberes",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 66,
+    "numero_camiseta": 24,
+    "nombre": "Pablo Barrios",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 21,
+    "clubs": [
+      "Atlético Madrid U19",
+      "Atlético Madrid B",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 67,
+    "numero_camiseta": 7,
+    "nombre": "Antoine Griezmann",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 34,
+    "clubs": [
+      "Real Sociedad",
+      "Atlético de Madrid",
+      "FC Barcelona"
+    ]
+  },
+  {
+    "_id": 68,
+    "numero_camiseta": 9,
+    "nombre": "Memphis Depay",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Países Bajos",
+      "Ghana"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 31,
+    "clubs": [
+      "PSV Eindhoven",
+      "Manchester United",
+      "Olympique Lyon",
+      "FC Barcelona",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 69,
+    "numero_camiseta": 10,
+    "nombre": "Ángel Correa",
+    "posicion": "Segundo delantero",
+    "nacionalidad": [
+      "Argentina"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 30,
+    "clubs": [
+      "San Lorenzo de Almagro",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 70,
+    "numero_camiseta": 19,
+    "nombre": "Álvaro Morata",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 16.0,
+    "edad": 32,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "Juventus",
+      "Chelsea",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 71,
+    "numero_camiseta": 30,
+    "nombre": "Samuel Lino",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 25.0,
+    "edad": 25,
+    "clubs": [
+      "São Bernardo FC",
+      "Gil Vicente FC",
+      "Valencia",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 72,
+    "numero_camiseta": 32,
+    "nombre": "Giuliano Simeone",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Argentina",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 22,
+    "clubs": [
+      "River Plate II",
+      "Atlético Madrid B",
+      "Real Zaragoza",
+      "Deportivo Alavés",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 73,
+    "numero_camiseta": 1,
+    "nombre": "Jeremías Ledesma",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Argentina"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 32,
+    "clubs": [
+      "Rosario Central",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 74,
+    "numero_camiseta": 13,
+    "nombre": "David Gil",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 31,
+    "clubs": [
+      "Cádiz CF B",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 75,
+    "numero_camiseta": 33,
+    "nombre": "Nico Ferrer",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.05,
+    "edad": 20,
+    "clubs": [
+      "Cádiz CF U19",
+      "Cádiz CF Mirandilla",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 76,
+    "numero_camiseta": 2,
+    "nombre": "Zaldua",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 33,
+    "clubs": [
+      "Real Sociedad B",
+      "Real Sociedad",
+      "Leganés",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 77,
+    "numero_camiseta": 3,
+    "nombre": "Fali",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 31,
+    "clubs": [
+      "Levante B",
+      "Huracán Valencia",
+      "Gimnàstic",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 78,
+    "numero_camiseta": 5,
+    "nombre": "Víctor Chust",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 25,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 79,
+    "numero_camiseta": 14,
+    "nombre": "Juan Cala",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 35,
+    "clubs": [
+      "Sevilla B",
+      "Sevilla",
+      "FC Cartagena",
+      "AD Alcorcón",
+      "FC Anzhi Majachkalá",
+      "Getafe",
+      "Granada",
+      "UD Las Palmas",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 80,
+    "numero_camiseta": 15,
+    "nombre": "Javi Hernández",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 26,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Oviedo",
+      "CD Leganés",
+      "Girona",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 81,
+    "numero_camiseta": 20,
+    "nombre": "Isaac Carcelén",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 32,
+    "clubs": [
+      "Real Betis B",
+      "Real Betis",
+      "Atlético Sanluqueño",
+      "Cultural Leonesa",
+      "Rayo Majadahonda",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 82,
+    "numero_camiseta": 21,
+    "nombre": "Iza Carcelén",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 32,
+    "clubs": [
+      "Real Betis B",
+      "Real Betis",
+      "Atlético Sanluqueño",
+      "Cultural Leonesa",
+      "Rayo Majadahonda",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 83,
+    "numero_camiseta": 22,
+    "nombre": "Jorge Meré",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 28,
+    "clubs": [
+      "Sporting de Gijón",
+      "1. FC Köln",
+      "Club América",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 84,
+    "numero_camiseta": 24,
+    "nombre": "Momo Mbaye",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Senegal"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 27,
+    "clubs": [
+      "Cádiz CF B",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 85,
+    "numero_camiseta": 35,
+    "nombre": "Lucas Pires",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 24,
+    "clubs": [
+      "Santos FC",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 86,
+    "numero_camiseta": 4,
+    "nombre": "Rubén Alcaraz",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 33,
+    "clubs": [
+      "Gramenet",
+      "AE Prat",
+      "CE L'Hospitalet",
+      "Girona",
+      "Real Valladolid",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 87,
+    "numero_camiseta": 6,
+    "nombre": "José Mari",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 37,
+    "clubs": [
+      "Real Betis B",
+      "Real Betis",
+      "Real Zaragoza",
+      "Colorado Rapids",
+      "Real Jaén",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 88,
+    "numero_camiseta": 8,
+    "nombre": "Álex Fernández",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 32,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "HNK Rijeka",
+      "Espanyol",
+      "Reading FC",
+      "Elche",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 89,
+    "numero_camiseta": 10,
+    "nombre": "Brian Ocampo",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Uruguay"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 25,
+    "clubs": [
+      "Nacional",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 90,
+    "numero_camiseta": 11,
+    "nombre": "Iván Alejo",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 29,
+    "clubs": [
+      "Villarreal C",
+      "Villarreal B",
+      "Alcorcón",
+      "AD Alcorcón",
+      "Eibar",
+      "Getafe",
+      "Málaga",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 91,
+    "numero_camiseta": 17,
+    "nombre": "Gonzalo Escalante",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Argentina",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 31,
+    "clubs": [
+      "Boca Juniors",
+      "Calcio Catania",
+      "Eibar",
+      "Lazio",
+      "Cagliari",
+      "Deportivo Alavés",
+      "Cremonese",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 92,
+    "numero_camiseta": 25,
+    "nombre": "Robert Navarro",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 22,
+    "clubs": [
+      "AS Monaco B",
+      "Real Sociedad B",
+      "Real Sociedad",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 93,
+    "numero_camiseta": 27,
+    "nombre": "Maxi Gómez",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Uruguay",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 28,
+    "clubs": [
+      "Defensor Sporting",
+      "Celta de Vigo",
+      "Valencia",
+      "Trabzonspor",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 94,
+    "numero_camiseta": 34,
+    "nombre": "Diadié Samassékou",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Mali"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 28,
+    "clubs": [
+      "Real Bamako",
+      "FC Liefering",
+      "RB Salzburgo",
+      "1899 Hoffenheim",
+      "Olympiakos Pireo",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 95,
+    "numero_camiseta": 7,
+    "nombre": "Rubén Sobrino",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 33,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Ponferradina",
+      "Deportivo Alavés",
+      "Manchester City",
+      "Valencia",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 96,
+    "numero_camiseta": 9,
+    "nombre": "Roger Martí",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 34,
+    "clubs": [
+      "Burjassot FC",
+      "Valencia Mestalla",
+      "Levante UD",
+      "Real Valladolid",
+      "Elche",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 97,
+    "numero_camiseta": 16,
+    "nombre": "Chris Ramos",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 27,
+    "clubs": [
+      "San Fernando CDI",
+      "Real Valladolid Promesas",
+      "Real Valladolid",
+      "Sevilla Atlético",
+      "UD Logroñés",
+      "CD Lugo",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 98,
+    "numero_camiseta": 18,
+    "nombre": "Darwin Machís",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Venezuela"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 32,
+    "clubs": [
+      "Mineros de Guayana",
+      "Udinese",
+      "Vitória Guimarães",
+      "Levante UD",
+      "Leganés",
+      "Granada",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 99,
+    "numero_camiseta": 19,
+    "nombre": "Sergi Guardiola",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 33,
+    "clubs": [
+      "Ontinyent CF",
+      "Jumilla CF",
+      "Atlético Malagueño",
+      "UD Almería B",
+      "AD Alcorcón",
+      "Córdoba CF",
+      "Granada",
+      "Real Valladolid",
+      "Rayo Vallecano",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 100,
+    "numero_camiseta": 23,
+    "nombre": "Théo Bongonda",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "Bélgica",
+      "República Democrática del Congo"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 29,
+    "clubs": [
+      "SV Zulte Waregem",
+      "Celta de Vigo",
+      "Trabzonspor",
+      "Cercle Brugge",
+      "Genk",
+      "Spartak Moscú",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "_id": 101,
+    "numero_camiseta": 1,
+    "nombre": "Vicente Guaita",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 38,
+    "clubs": [
+      "Valencia Mestalla",
+      "Valencia",
+      "Recreativo Huelva",
+      "Getafe",
+      "Crystal Palace",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 102,
+    "numero_camiseta": 25,
+    "nombre": "Diego Alves",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 22,
+    "clubs": [
+      "RC Celta Fortuna",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 103,
+    "numero_camiseta": 2,
+    "nombre": "Carl Starfelt",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Suecia"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 29,
+    "clubs": [
+      "IF Brommapojkarna",
+      "IFK Göteborg",
+      "FC Rubin Kazán",
+      "Celtic Glasgow",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 104,
+    "numero_camiseta": 3,
+    "nombre": "Óscar Mingueza",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 25,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Barcelona",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 105,
+    "numero_camiseta": 4,
+    "nombre": "Unai Núñez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 28,
+    "clubs": [
+      "Athletic B",
+      "Athletic",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 106,
+    "numero_camiseta": 15,
+    "nombre": "Joseph Aidoo",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Ghana"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 29,
+    "clubs": [
+      "Inter Allies FC",
+      "Hammarby IF",
+      "Genk",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 107,
+    "numero_camiseta": 17,
+    "nombre": "Javi Galán",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Córdoba CF B",
+      "Córdoba CF",
+      "Huesca",
+      "Celta de Vigo",
+      "Atlético de Madrid"
+    ]
+  },
+  {
+    "_id": 108,
+    "numero_camiseta": 22,
+    "nombre": "Mihailo Ristić",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Serbia"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 29,
+    "clubs": [
+      "Estrella Roja",
+      "FK Krasnodar",
+      "Sparta Praga",
+      "Montpellier HSC",
+      "Benfica",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 109,
+    "numero_camiseta": 23,
+    "nombre": "Kevin Vázquez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 31,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 110,
+    "numero_camiseta": 28,
+    "nombre": "Carlos Domínguez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 24,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 111,
+    "numero_camiseta": 30,
+    "nombre": "Hugo Álvarez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 21,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 112,
+    "numero_camiseta": 5,
+    "nombre": "Fran Beltrán",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 26,
+    "clubs": [
+      "Rayo Vallecano",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 113,
+    "numero_camiseta": 6,
+    "nombre": "Carlos Dotor",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 23,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 114,
+    "numero_camiseta": 8,
+    "nombre": "Luca de la Torre",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Estados Unidos"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 26,
+    "clubs": [
+      "Fulham U18",
+      "Fulham",
+      "Heracles Almelo",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 115,
+    "numero_camiseta": 14,
+    "nombre": "Renato Tapia",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Perú",
+      "Países Bajos"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 29,
+    "clubs": [
+      "Esther Grande",
+      "FC Twente",
+      "Feyenoord",
+      "Willem II",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 116,
+    "numero_camiseta": 16,
+    "nombre": "Jailson Siqueira",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 29,
+    "clubs": [
+      "Grêmio",
+      "Fenerbahçe",
+      "Dalian Professional",
+      "Palmeiras",
+      "América-MG",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 117,
+    "numero_camiseta": 24,
+    "nombre": "Williot Swedberg",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "Suecia"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 20,
+    "clubs": [
+      "Hammarby IF",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 118,
+    "numero_camiseta": 7,
+    "nombre": "Carles Pérez",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 26,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Barcelona",
+      "Roma",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 119,
+    "numero_camiseta": 9,
+    "nombre": "Anastasios Douvikas",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Grecia"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 25,
+    "clubs": [
+      "Asteras Tripolis",
+      "PAS Giannina",
+      "FC Utrecht",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 120,
+    "numero_camiseta": 10,
+    "nombre": "Iago Aspas",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 37,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo",
+      "Liverpool",
+      "Sevilla"
+    ]
+  },
+  {
+    "_id": 121,
+    "numero_camiseta": 11,
+    "nombre": "Franco Cervi",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 30,
+    "clubs": [
+      "Rosario Central",
+      "Benfica",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 122,
+    "numero_camiseta": 18,
+    "nombre": "Larsen",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Noruega"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 25,
+    "clubs": [
+      "Fredrikstad FK",
+      "Sarpsborg 08 FF",
+      "FC Groningen",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 123,
+    "numero_camiseta": 19,
+    "nombre": "Swedberg",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Suecia"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 20,
+    "clubs": [
+      "Hammarby IF",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 124,
+    "numero_camiseta": 20,
+    "nombre": "Hugo Sotelo",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 21,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 125,
+    "numero_camiseta": 29,
+    "nombre": "Miguel Rodríguez",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 21,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo"
+    ]
+  },
+  {
+    "_id": 126,
+    "numero_camiseta": 1,
+    "nombre": "Stole Dimitrievski",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Macedonia del Norte"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 31,
+    "clubs": [
+      "FK Rabotnicki",
+      "UD Las Palmas B",
+      "Granada B",
+      "Granada",
+      "Nàstic",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 127,
+    "numero_camiseta": 13,
+    "nombre": "Dani Cárdenas",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "Levante UD B",
+      "Levante UD",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 128,
+    "numero_camiseta": 2,
+    "nombre": "Andrei Rațiu",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Rumania"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 26,
+    "clubs": [
+      "Villarreal B",
+      "Villarreal",
+      "ADO Den Haag",
+      "Huesca",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 129,
+    "numero_camiseta": 3,
+    "nombre": "Pep Chavarría",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 26,
+    "clubs": [
+      "Olot",
+      "Girona",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 130,
+    "numero_camiseta": 5,
+    "nombre": "Aridane Hernández",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 35,
+    "clubs": [
+      "Real Valladolid B",
+      "Real Valladolid",
+      "CD Eldense",
+      "Granada B",
+      "Cádiz CF",
+      "CA Osasuna",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 131,
+    "numero_camiseta": 19,
+    "nombre": "Florian Lejeune",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 33,
+    "clubs": [
+      "Istres FC",
+      "Villarreal B",
+      "Villarreal",
+      "Brest",
+      "Girona",
+      "Manchester City",
+      "Newcastle United",
+      "Deportivo Alavés",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 132,
+    "numero_camiseta": 20,
+    "nombre": "Iván Balliu",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Albania",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 33,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Arouca",
+      "FC Metz",
+      "Almería",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 133,
+    "numero_camiseta": 24,
+    "nombre": "Mumin",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Ghana"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "Right to Dream",
+      "FC Nordsjaelland",
+      "Vitória Guimarães",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 134,
+    "numero_camiseta": 28,
+    "nombre": "Martín Pascual",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 25,
+    "clubs": [
+      "Rayo Vallecano B",
+      "SD Eibar",
+      "UD Ibiza",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 135,
+    "numero_camiseta": 33,
+    "nombre": "Diego Méndez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.1,
+    "edad": 21,
+    "clubs": [
+      "Rayo Vallecano B",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 136,
+    "numero_camiseta": 4,
+    "nombre": "Pathé Ciss",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Senegal"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 31,
+    "clubs": [
+      "Dakar Sacré-Cœur",
+      "CF União Madeira",
+      "SC Salgueiros",
+      "Famalicao",
+      "Recreativo Huelva",
+      "CF Fuenlabrada",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 137,
+    "numero_camiseta": 6,
+    "nombre": "Isi Palazón",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Real Murcia Imperial",
+      "Real Murcia",
+      "ElPozo Murcia",
+      "AD Alcorcón",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 138,
+    "numero_camiseta": 8,
+    "nombre": "Óscar Trejo",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "Argentina",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 36,
+    "clubs": [
+      "Boca Juniors",
+      "Mallorca",
+      "Elche",
+      "Sporting Gijón",
+      "Rayo Vallecano",
+      "Toulouse FC"
+    ]
+  },
+  {
+    "_id": 139,
+    "numero_camiseta": 16,
+    "nombre": "Abdul Mumin",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Ghana"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "Right to Dream",
+      "FC Nordsjaelland",
+      "Vitória Guimarães",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 140,
+    "numero_camiseta": 18,
+    "nombre": "Álvaro García",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 32,
+    "clubs": [
+      "CD Utrera",
+      "Arroyo CP",
+      "San Fernando CDI",
+      "Granada B",
+      "Granada",
+      "Cádiz CF",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 141,
+    "numero_camiseta": 21,
+    "nombre": "Unai López",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 29,
+    "clubs": [
+      "Athletic B",
+      "Athletic",
+      "Leganés",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 142,
+    "numero_camiseta": 23,
+    "nombre": "Randy Nteka",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Francia",
+      "Angola"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "CD Betis San Isidro",
+      "CF Fuenlabrada",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 143,
+    "numero_camiseta": 39,
+    "nombre": "Miguel Crespo",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Portugal",
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 28,
+    "clubs": [
+      "GD Bragança",
+      "CD Feirense",
+      "Estoril Praia",
+      "Fenerbahçe",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 144,
+    "numero_camiseta": 7,
+    "nombre": "Martín",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 25,
+    "clubs": [
+      "Rayo Vallecano B",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 145,
+    "numero_camiseta": 9,
+    "nombre": "Radamel Falcao",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Colombia"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 39,
+    "clubs": [
+      "River Plate",
+      "Porto",
+      "Atlético de Madrid",
+      "AS Monaco",
+      "Manchester United",
+      "Chelsea",
+      "Galatasaray",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 146,
+    "numero_camiseta": 10,
+    "nombre": "Bebé",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Cabo Verde",
+      "Portugal"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 34,
+    "clubs": [
+      "Estrela Amadora",
+      "Vitória Guimarães",
+      "Manchester United",
+      "Beşiktaş JK",
+      "Rio Ave FC",
+      "Paços de Ferreira",
+      "Benfica",
+      "Córdoba CF",
+      "Rayo Vallecano",
+      "Eibar"
+    ]
+  },
+  {
+    "_id": 147,
+    "numero_camiseta": 11,
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Real Valladolid Promesas",
+      "Real Valladolid",
+      "Girona",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 148,
+    "numero_camiseta": 15,
+    "nombre": "Jorge de Frutos",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 27,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Valladolid",
+      "Rayo Majadahonda",
+      "Levante UD",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 149,
+    "numero_camiseta": 17,
+    "nombre": "Kike Pérez",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 27,
+    "clubs": [
+      "Rayo Vallecano B",
+      "Real Valladolid Promesas",
+      "Real Valladolid",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 150,
+    "numero_camiseta": 22,
+    "nombre": "Raúl de Tomás",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España",
+      "República Dominicana"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Córdoba CF",
+      "Real Valladolid",
+      "Rayo Vallecano",
+      "Benfica",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 151,
+    "numero_camiseta": 25,
+    "nombre": "Miguel Palazón",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Real Murcia Imperial",
+      "Real Murcia",
+      "ElPozo Murcia",
+      "AD Alcorcón",
+      "Rayo Vallecano"
+    ]
+  },
+  {
+    "_id": 152,
+    "numero_camiseta": 1,
+    "nombre": "Fernando Pacheco",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 33,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "Deportivo Alavés",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 153,
+    "numero_camiseta": 13,
+    "nombre": "Joan García",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 24,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 154,
+    "numero_camiseta": 2,
+    "nombre": "Óscar Gil",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "Elche B",
+      "Elche",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 155,
+    "numero_camiseta": 4,
+    "nombre": "Víctor Ruiz",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 35,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Napoli",
+      "Valencia",
+      "Villarreal",
+      "Beşiktaş JK",
+      "Real Betis",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 156,
+    "numero_camiseta": 5,
+    "nombre": "Fernando Calero",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 29,
+    "clubs": [
+      "Málaga B",
+      "Atlético Malagueño",
+      "Real Valladolid Promesas",
+      "Real Valladolid",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 157,
+    "numero_camiseta": 6,
+    "nombre": "Leandro Cabrera",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 33,
+    "clubs": [
+      "Defensor Sporting",
+      "Atlético de Madrid B",
+      "Atlético de Madrid",
+      "Recreativo Huelva",
+      "Numancia",
+      "Hércules CF",
+      "Real Madrid Castilla",
+      "Real Zaragoza",
+      "Getafe",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 158,
+    "numero_camiseta": 14,
+    "nombre": "Brian Oliván",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 31,
+    "clubs": [
+      "FC Barcelona B",
+      "CSKA Sofía",
+      "Gramenet",
+      "Hajduk Split",
+      "Granada",
+      "Cádiz CF",
+      "Girona",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 159,
+    "numero_camiseta": 21,
+    "nombre": "Adrià Pedrosa",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 27,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Sevilla"
+    ]
+  },
+  {
+    "_id": 160,
+    "numero_camiseta": 23,
+    "nombre": "Omar El Hilali",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Marruecos",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 21,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 161,
+    "numero_camiseta": 3,
+    "nombre": "Sergi Darder",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 31,
+    "clubs": [
+      "Espanyol B",
+      "Málaga",
+      "Olympique Lyon",
+      "Espanyol",
+      "Mallorca"
+    ]
+  },
+  {
+    "_id": 162,
+    "numero_camiseta": 8,
+    "nombre": "Keidi Bare",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Albania"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "Atlético de Madrid B",
+      "Atlético de Madrid",
+      "Málaga",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 163,
+    "numero_camiseta": 10,
+    "nombre": "Pol Lozano",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 25,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Girona",
+      "Granada"
+    ]
+  },
+  {
+    "_id": 164,
+    "numero_camiseta": 15,
+    "nombre": "José Carlos Lazo",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 29,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Unión Club",
+      "Getafe",
+      "CD Lugo",
+      "Almería",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 165,
+    "numero_camiseta": 16,
+    "nombre": "Edu Expósito",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 29,
+    "clubs": [
+      "Deportivo Fabril",
+      "Deportivo de La Coruña",
+      "Eibar",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 166,
+    "numero_camiseta": 17,
+    "nombre": "Jofre Carreras",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 23,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 167,
+    "numero_camiseta": 20,
+    "nombre": "Puado",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 6.0,
+    "edad": 26,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Real Zaragoza"
+    ]
+  },
+  {
+    "_id": 168,
+    "numero_camiseta": 22,
+    "nombre": "Nico Melamed",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España",
+      "Argentina"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 23,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 169,
+    "numero_camiseta": 24,
+    "nombre": "Gragera",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 24,
+    "clubs": [
+      "Sporting de Gijón B",
+      "Sporting de Gijón",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 170,
+    "numero_camiseta": 30,
+    "nombre": "Rubén Sánchez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 23,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Mirandés"
+    ]
+  },
+  {
+    "_id": 171,
+    "numero_camiseta": 31,
+    "nombre": "José Gragera",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 24,
+    "clubs": [
+      "Sporting de Gijón B",
+      "Sporting de Gijón",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 172,
+    "numero_camiseta": 7,
+    "nombre": "Martin Braithwaite",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Dinamarca"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 33,
+    "clubs": [
+      "Esbjerg fB",
+      "Toulouse FC",
+      "Middlesbrough FC",
+      "Girondins Burdeos",
+      "Leganés",
+      "FC Barcelona",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 173,
+    "numero_camiseta": 9,
+    "nombre": "Landry Dimata",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Bélgica",
+      "Congo"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 28,
+    "clubs": [
+      "KV Oostende",
+      "VfL Wolfsburgo",
+      "RSC Anderlecht",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 174,
+    "numero_camiseta": 11,
+    "nombre": "Pere Milla",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 31,
+    "clubs": [
+      "Getafe B",
+      "Getafe",
+      "Logroñés",
+      "UD Logroñés",
+      "SD Eibar",
+      "Elche",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 175,
+    "numero_camiseta": 19,
+    "nombre": "Salvi Sánchez",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 33,
+    "clubs": [
+      "Atlético Sanluqueño",
+      "Villanovense",
+      "Cádiz CF",
+      "Rayo Vallecano",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 176,
+    "numero_camiseta": 1,
+    "nombre": "David Soria",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 32,
+    "clubs": [
+      "Real Madrid C",
+      "Sevilla B",
+      "Sevilla",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 177,
+    "numero_camiseta": 13,
+    "nombre": "Daniel Fuzato",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Brasil",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 27,
+    "clubs": [
+      "Palmeiras U20",
+      "Palmeiras",
+      "Roma",
+      "Gil Vicente FC",
+      "Ibiza",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 178,
+    "numero_camiseta": 2,
+    "nombre": "Djené",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Togo",
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 33,
+    "clubs": [
+      "Dakar Sacré-Cœur",
+      "Coton Sport",
+      "AD Alcorcón",
+      "Sint-Truiden",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 179,
+    "numero_camiseta": 3,
+    "nombre": "Gastón Álvarez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Uruguay"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 24,
+    "clubs": [
+      "Defensor Sporting",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 180,
+    "numero_camiseta": 4,
+    "nombre": "Omar Alderete",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Paraguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 7.0,
+    "edad": 28,
+    "clubs": [
+      "Cerro Porteño",
+      "Gimnasia y Esgrima La Plata",
+      "Huracán",
+      "FC Basilea",
+      "Hertha BSC",
+      "Valencia",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 181,
+    "numero_camiseta": 15,
+    "nombre": "Stefan Mitrović",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Serbia",
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 35,
+    "clubs": [
+      "MFK Petržalka",
+      "FC Brno",
+      "FK Rad",
+      "KV Kortrijk",
+      "Benfica B",
+      "Benfica",
+      "Real Valladolid",
+      "SC Friburgo",
+      "Getafe",
+      "KAA Gent",
+      "RC Estrasburgo",
+      "Estrella Roja"
+    ]
+  },
+  {
+    "_id": 182,
+    "numero_camiseta": 16,
+    "nombre": "Diego Rico",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 32,
+    "clubs": [
+      "Real Zaragoza",
+      "CD Numancia",
+      "Leganés",
+      "AFC Bournemouth",
+      "Real Sociedad",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 183,
+    "numero_camiseta": 17,
+    "nombre": "Juan Iglesias",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 26,
+    "clubs": [
+      "Getafe B",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 184,
+    "numero_camiseta": 21,
+    "nombre": "Juanjo Camacho",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 22,
+    "clubs": [
+      "Getafe B",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 185,
+    "numero_camiseta": 22,
+    "nombre": "Damián Suárez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 36,
+    "clubs": [
+      "Defensor Sporting",
+      "Sporting de Gijón",
+      "Elche",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 186,
+    "numero_camiseta": 5,
+    "nombre": "Luis Milla",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Rayo Majadahonda",
+      "CF Fuenlabrada",
+      "Granada",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 187,
+    "numero_camiseta": 6,
+    "nombre": "Christián Aleñá",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 27,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Barcelona",
+      "Real Betis",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 188,
+    "numero_camiseta": 8,
+    "nombre": "Mauro Arambarri",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Uruguay",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 29,
+    "clubs": [
+      "Danubio FC",
+      "Girondins Burdeos",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 189,
+    "numero_camiseta": 11,
+    "nombre": "Carles Aleñá",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 27,
+    "clubs": [
+      "FC Barcelona B",
+      "FC Barcelona",
+      "Real Betis",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 190,
+    "numero_camiseta": 14,
+    "nombre": "Jordi Martín",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 23,
+    "clubs": [
+      "Real Madrid U19",
+      "Real Madrid Castilla",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 191,
+    "numero_camiseta": 18,
+    "nombre": "Ilaix Moriba",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Guinea",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 22,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona B",
+      "FC Barcelona",
+      "RB Leipzig",
+      "Valencia",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 192,
+    "numero_camiseta": 20,
+    "nombre": "Nemanja Maksimović",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Serbia"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 30,
+    "clubs": [
+      "Estrella Roja U19",
+      "ND Gorica",
+      "Astana",
+      "Valencia",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 193,
+    "numero_camiseta": 24,
+    "nombre": "Javi Blázquez",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.4,
+    "edad": 26,
+    "clubs": [
+      "Getafe B",
+      "UCAM Murcia CF",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 194,
+    "numero_camiseta": 26,
+    "nombre": "Alberto Risco",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.1,
+    "edad": 22,
+    "clubs": [
+      "Getafe B",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 195,
+    "numero_camiseta": 7,
+    "nombre": "Jaime Mata",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.6,
+    "edad": 36,
+    "clubs": [
+      "Rayo Vallecano B",
+      "Lleida Esportiu",
+      "Girona",
+      "Real Valladolid",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 196,
+    "numero_camiseta": 9,
+    "nombre": "Borja Mayoral",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 28,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "VfL Wolfsburgo",
+      "Levante UD",
+      "Roma",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 197,
+    "numero_camiseta": 10,
+    "nombre": "Enes Ünal",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Turquía"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 28,
+    "clubs": [
+      "Bursaspor",
+      "Manchester City",
+      "Genk",
+      "NAC Breda",
+      "FC Twente",
+      "Villarreal",
+      "Levante UD",
+      "Real Valladolid",
+      "Getafe",
+      "AFC Bournemouth"
+    ]
+  },
+  {
+    "_id": 198,
+    "numero_camiseta": 19,
+    "nombre": "Latasa",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 24,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 199,
+    "numero_camiseta": 25,
+    "nombre": "Juanmi Latasa",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 24,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 200,
+    "numero_camiseta": 1,
+    "nombre": "Paulo Gazzaniga",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 33,
+    "clubs": [
+      "Valencia Mestalla",
+      "Gillingham FC",
+      "Southampton",
+      "Rayo Vallecano",
+      "Tottenham Hotspur",
+      "Elche",
+      "Fulham",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 201,
+    "numero_camiseta": 13,
+    "nombre": "Juan Carlos Martín",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 37,
+    "clubs": [
+      "Hércules CF",
+      "Rayo Vallecano",
+      "Córdoba CF",
+      "Elche",
+      "Lugo",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 202,
+    "numero_camiseta": 2,
+    "nombre": "Bernardo Espinosa",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Colombia",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 35,
+    "clubs": [
+      "Sevilla C",
+      "Sevilla B",
+      "Sevilla",
+      "Racing Santander",
+      "Sporting de Gijón",
+      "Middlesbrough FC",
+      "Girona",
+      "Espanyol"
+    ]
+  },
+  {
+    "_id": 203,
+    "numero_camiseta": 3,
+    "nombre": "Arnau Martínez",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 22,
+    "clubs": [
+      "Girona Juvenil A",
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 204,
+    "numero_camiseta": 4,
+    "nombre": "Arnau",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 22,
+    "clubs": [
+      "Girona Juvenil A",
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 205,
+    "numero_camiseta": 5,
+    "nombre": "David López",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 35,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Leganés",
+      "Huesca",
+      "Napoli",
+      "Espanyol",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 206,
+    "numero_camiseta": 15,
+    "nombre": "Juanpe",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 34,
+    "clubs": [
+      "Las Palmas B",
+      "Las Palmas",
+      "Racing Santander",
+      "Granada",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 207,
+    "numero_camiseta": 20,
+    "nombre": "Yan Couto",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Brasil",
+      "Portugal"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 22,
+    "clubs": [
+      "Coritiba FC",
+      "Manchester City",
+      "Girona",
+      "SC Braga"
+    ]
+  },
+  {
+    "_id": 208,
+    "numero_camiseta": 22,
+    "nombre": "Paulo Gazzaniga",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 33,
+    "clubs": [
+      "Valencia Mestalla",
+      "Gillingham FC",
+      "Southampton",
+      "Rayo Vallecano",
+      "Tottenham Hotspur",
+      "Elche",
+      "Fulham",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 209,
+    "numero_camiseta": 23,
+    "nombre": "Artem Dovbyk",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Ucrania"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 28,
+    "clubs": [
+      "Cherkaskyi Dnipro",
+      "FC Dnipro",
+      "FC Zarya Balti",
+      "Midtjylland",
+      "SønderjyskE",
+      "SK Dnipro-1",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 210,
+    "numero_camiseta": 25,
+    "nombre": "Eric García",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 24,
+    "clubs": [
+      "Manchester City U18",
+      "Manchester City U23",
+      "Manchester City",
+      "FC Barcelona",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 211,
+    "numero_camiseta": 26,
+    "nombre": "Juanpe",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 34,
+    "clubs": [
+      "Las Palmas B",
+      "Las Palmas",
+      "Racing Santander",
+      "Granada",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 212,
+    "numero_camiseta": 33,
+    "nombre": "Alexander Callens",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Perú",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 32,
+    "clubs": [
+      "Sport Boys Association",
+      "Real Sociedad B",
+      "Real Sociedad",
+      "Numancia",
+      "New York City FC",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 213,
+    "numero_camiseta": 34,
+    "nombre": "Antal Yaakobishvili",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Hungría",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 20,
+    "clubs": [
+      "Girona U19",
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 214,
+    "numero_camiseta": 6,
+    "nombre": "Ibrahima Kébé",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Mali"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 24,
+    "clubs": [
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 215,
+    "numero_camiseta": 8,
+    "nombre": "Víctor Barberá",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 20,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona B",
+      "Club Brugge KV",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 216,
+    "numero_camiseta": 10,
+    "nombre": "Borja García",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 34,
+    "clubs": [
+      "Rayo Vallecano B",
+      "Rayo Vallecano",
+      "Córdoba CF",
+      "Real Madrid Castilla",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 217,
+    "numero_camiseta": 11,
+    "nombre": "Valery Fernández",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 25,
+    "clubs": [
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 218,
+    "numero_camiseta": 14,
+    "nombre": "Aleix García",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 20.0,
+    "edad": 28,
+    "clubs": [
+      "Villarreal C",
+      "Villarreal B",
+      "Villarreal",
+      "Manchester City U23",
+      "Manchester City",
+      "Girona",
+      "Royal Excel Mouscron",
+      "Dinamo Bucarest",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 219,
+    "numero_camiseta": 16,
+    "nombre": "Arnau Ortiz",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 23,
+    "clubs": [
+      "Girona B",
+      "UD Ibiza",
+      "CD Eldense",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 220,
+    "numero_camiseta": 18,
+    "nombre": "Pablo Torre",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 21,
+    "clubs": [
+      "Racing Santander",
+      "FC Barcelona",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 221,
+    "numero_camiseta": 21,
+    "nombre": "Yangel Herrera",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Venezuela"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 27,
+    "clubs": [
+      "Atlético Venezuela",
+      "Manchester City",
+      "New York City FC",
+      "Huesca",
+      "Granada",
+      "Espanyol",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 222,
+    "numero_camiseta": 24,
+    "nombre": "Portu",
+    "posicion": "Segundo delantero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 32,
+    "clubs": [
+      "Valencia Mestalla",
+      "Valencia B",
+      "Valencia",
+      "Albacete Balompié",
+      "Girona",
+      "Real Sociedad",
+      "Getafe",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 223,
+    "numero_camiseta": 27,
+    "nombre": "Jastin",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 20,
+    "clubs": [
+      "Girona B",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 224,
+    "numero_camiseta": 38,
+    "nombre": "Pablo Torre",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 21,
+    "clubs": [
+      "Racing Santander",
+      "FC Barcelona",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 225,
+    "numero_camiseta": 7,
+    "nombre": "Cristhian Stuani",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Uruguay",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 38,
+    "clubs": [
+      "Danubio FC",
+      "Bellavista",
+      "CA Fénix",
+      "Reggina",
+      "Albacete Balompié",
+      "Levante UD",
+      "Racing Santander",
+      "Espanyol",
+      "Middlesbrough FC",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 226,
+    "numero_camiseta": 9,
+    "nombre": "Artem Dovbyk",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Ucrania"
+    ],
+    "valor_mercado_mill_eur": 30.0,
+    "edad": 28,
+    "clubs": [
+      "Cherkaskyi Dnipro",
+      "FC Dnipro",
+      "FC Zarya Balti",
+      "Midtjylland",
+      "SønderjyskE",
+      "SK Dnipro-1",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 227,
+    "numero_camiseta": 17,
+    "nombre": "Iván Martín",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 25,
+    "clubs": [
+      "Villarreal C",
+      "Villarreal B",
+      "Villarreal",
+      "CD Mirandés",
+      "Girona",
+      "Real Valladolid",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 228,
+    "numero_camiseta": 19,
+    "nombre": "Savio",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "Brasil"
+    ],
+    "valor_mercado_mill_eur": 50.0,
+    "edad": 20,
+    "clubs": [
+      "Atlético Mineiro",
+      "Troyes AC",
+      "PSV Eindhoven",
+      "Girona"
+    ]
+  },
+  {
+    "_id": 229,
+    "numero_camiseta": 1,
+    "nombre": "Matías Dituro",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 37,
+    "clubs": [
+      "Celta B",
+      "Celta",
+      "Celta Fortuna",
+      "Universidad Católica",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 230,
+    "numero_camiseta": 13,
+    "nombre": "Edgar Badía",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 32,
+    "clubs": [
+      "Espanyol B",
+      "Espanyol",
+      "Reus Deportiu",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 231,
+    "numero_camiseta": 3,
+    "nombre": "Enzo Roco",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Chile",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 32,
+    "clubs": [
+      "Universidad Católica",
+      "O'Higgins",
+      "Elche",
+      "Espanyol",
+      "Cruz Azul",
+      "Beşiktaş JK"
+    ]
+  },
+  {
+    "_id": 232,
+    "numero_camiseta": 5,
+    "nombre": "Gonzalo Verdú",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 35,
+    "clubs": [
+      "Orihuela CF",
+      "CD Puertollano",
+      "Albacete Balompié",
+      "Hércules CF",
+      "Cartagena",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 233,
+    "numero_camiseta": 6,
+    "nombre": "Pedro Bigas",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 35,
+    "clubs": [
+      "Atlético Baleares",
+      "Elche Ilicitano",
+      "Elche",
+      "UD Las Palmas",
+      "Eibar",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 234,
+    "numero_camiseta": 14,
+    "nombre": "Helibelton Palacios",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "Colombia"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 31,
+    "clubs": [
+      "Deportivo Cali",
+      "La Equidad",
+      "Atlético Nacional",
+      "Elche",
+      "Cruzeiro EC"
+    ]
+  },
+  {
+    "_id": 235,
+    "numero_camiseta": 24,
+    "nombre": "Pol Lirola",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 27,
+    "clubs": [
+      "Espanyol Juvenil A",
+      "Juventus U19",
+      "Juventus",
+      "US Sassuolo",
+      "Fiorentina",
+      "Olympique Marsella",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 236,
+    "numero_camiseta": 26,
+    "nombre": "John Chetauya",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España",
+      "Nigeria"
+    ],
+    "valor_mercado_mill_eur": 0.4,
+    "edad": 25,
+    "clubs": [
+      "Elche Ilicitano",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 237,
+    "numero_camiseta": 2,
+    "nombre": "Lautaro Blanco",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 24,
+    "clubs": [
+      "Rosario Central",
+      "Elche",
+      "CA Boca Juniors"
+    ]
+  },
+  {
+    "_id": 238,
+    "numero_camiseta": 4,
+    "nombre": "Diego González",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 29,
+    "clubs": [
+      "Cádiz CF B",
+      "Cádiz CF",
+      "Málaga",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 239,
+    "numero_camiseta": 8,
+    "nombre": "Raúl Guti",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 28,
+    "clubs": [
+      "Real Zaragoza",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 240,
+    "numero_camiseta": 12,
+    "nombre": "Fabio Blanco",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 21,
+    "clubs": [
+      "Eintracht Fráncfort",
+      "Real Madrid Castilla",
+      "Villarreal B",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 241,
+    "numero_camiseta": 16,
+    "nombre": "Fidel Chaves",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 35,
+    "clubs": [
+      "Recreativo Huelva",
+      "Elche",
+      "Córdoba CF",
+      "Almería",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 242,
+    "numero_camiseta": 17,
+    "nombre": "Javier Pastore",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 0.5,
+    "edad": 36,
+    "clubs": [
+      "Talleres",
+      "Huracán",
+      "Palermo",
+      "París Saint-Germain",
+      "Roma",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 243,
+    "numero_camiseta": 20,
+    "nombre": "Gerard Gumbau",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 30,
+    "clubs": [
+      "Girona B",
+      "Girona",
+      "FC Barcelona B",
+      "Leganés",
+      "Elche",
+      "Granada"
+    ]
+  },
+  {
+    "_id": 244,
+    "numero_camiseta": 21,
+    "nombre": "Omar Mascarell",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 32,
+    "clubs": [
+      "Real Madrid C",
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "Sporting de Gijón",
+      "Derby County",
+      "Eintracht Fráncfort",
+      "Schalke 04",
+      "Elche",
+      "Mallorca"
+    ]
+  },
+  {
+    "_id": 245,
+    "numero_camiseta": 23,
+    "nombre": "Randy Nteka",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Francia",
+      "Angola"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 27,
+    "clubs": [
+      "CD Betis San Isidro",
+      "CF Fuenlabrada",
+      "Rayo Vallecano",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 246,
+    "numero_camiseta": 25,
+    "nombre": "José Ángel Carmona",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 23,
+    "clubs": [
+      "Sevilla FC U19",
+      "Sevilla Atlético",
+      "Sevilla",
+      "Elche",
+      "Getafe"
+    ]
+  },
+  {
+    "_id": 247,
+    "numero_camiseta": 28,
+    "nombre": "Tete Morente",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 28,
+    "clubs": [
+      "Atlético Baleares",
+      "Valencia Mestalla",
+      "CD Lugo",
+      "Málaga",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 248,
+    "numero_camiseta": 7,
+    "nombre": "Mourad",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España",
+      "Marruecos"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 26,
+    "clubs": [
+      "Elche Ilicitano",
+      "Elche",
+      "CD Castellón",
+      "Burgos CF"
+    ]
+  },
+  {
+    "_id": 249,
+    "numero_camiseta": 9,
+    "nombre": "Lucas Boyé",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 28,
+    "clubs": [
+      "River Plate",
+      "Newell's Old Boys",
+      "Torino FC",
+      "Celta de Vigo",
+      "AEK Atenas",
+      "Reading FC",
+      "Elche",
+      "Granada"
+    ]
+  },
+  {
+    "_id": 250,
+    "numero_camiseta": 11,
+    "nombre": "Ferran Queralt",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 23,
+    "clubs": [
+      "Elche Ilicitano",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 251,
+    "numero_camiseta": 18,
+    "nombre": "Ezequiel Ponce",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 28,
+    "clubs": [
+      "Newell's Old Boys",
+      "Roma",
+      "Granada",
+      "Lille",
+      "AEK Atenas",
+      "Spartak Moscú",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 252,
+    "numero_camiseta": 19,
+    "nombre": "Pape Cheikh",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Senegal",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 27,
+    "clubs": [
+      "Celta de Vigo B",
+      "Celta de Vigo",
+      "Olympique Lyon",
+      "Dijon FCO",
+      "Aris Salónica",
+      "Elche"
+    ]
+  },
+  {
+    "_id": 253,
+    "numero_camiseta": 1,
+    "nombre": "Álvaro Valles",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 27,
+    "clubs": [
+      "Real Betis B",
+      "Real Betis",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 254,
+    "numero_camiseta": 13,
+    "nombre": "Aarón Escandell",
+    "posicion": "Portero",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.8,
+    "edad": 29,
+    "clubs": [
+      "Granada B",
+      "Granada",
+      "FC Cartagena",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 255,
+    "numero_camiseta": 2,
+    "nombre": "Marvin Park",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España",
+      "Corea del Sur",
+      "Nigeria"
+    ],
+    "valor_mercado_mill_eur": 3.0,
+    "edad": 24,
+    "clubs": [
+      "Real Madrid Juvenil A",
+      "Real Madrid Castilla",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 256,
+    "numero_camiseta": 3,
+    "nombre": "Sergi Cardona",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 4.0,
+    "edad": 25,
+    "clubs": [
+      "FC Barcelona U19",
+      "FC Barcelona B",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 257,
+    "numero_camiseta": 4,
+    "nombre": "Álex Suárez",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 31,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 258,
+    "numero_camiseta": 6,
+    "nombre": "Eric Curbelo",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 30,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 259,
+    "numero_camiseta": 15,
+    "nombre": "Álvaro Lemos",
+    "posicion": "Lateral derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 32,
+    "clubs": [
+      "Deportivo Fabril",
+      "Deportivo de La Coruña",
+      "Celta de Vigo",
+      "CD Lugo",
+      "RC Lens",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 260,
+    "numero_camiseta": 17,
+    "nombre": "Daley Sinkgraven",
+    "posicion": "Lateral izquierdo",
+    "nacionalidad": [
+      "Países Bajos"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 29,
+    "clubs": [
+      "FC Groningen",
+      "AFC Ajax",
+      "Bayer 04 Leverkusen",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 261,
+    "numero_camiseta": 23,
+    "nombre": "Saúl Coco",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "Guinea Ecuatorial",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 5.0,
+    "edad": 25,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 262,
+    "numero_camiseta": 28,
+    "nombre": "Juanma Herzog",
+    "posicion": "Defensa central",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 20,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 263,
+    "numero_camiseta": 5,
+    "nombre": "Javi Muñoz",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 30,
+    "clubs": [
+      "Real Madrid Castilla",
+      "Real Madrid",
+      "Lorca FC",
+      "Real Oviedo",
+      "Deportivo Alavés",
+      "CD Mirandés",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 264,
+    "numero_camiseta": 8,
+    "nombre": "Máximo Perrone",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "Argentina",
+      "Italia"
+    ],
+    "valor_mercado_mill_eur": 10.0,
+    "edad": 21,
+    "clubs": [
+      "Vélez Sarsfield",
+      "Manchester City",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 265,
+    "numero_camiseta": 10,
+    "nombre": "Alberto Moleiro",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 15.0,
+    "edad": 21,
+    "clubs": [
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 266,
+    "numero_camiseta": 12,
+    "nombre": "Enzo Loiodice",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "Francia"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 24,
+    "clubs": [
+      "Dijon FCO",
+      "Wolverhampton Wanderers U23",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 267,
+    "numero_camiseta": 20,
+    "nombre": "Kirian Rodríguez",
+    "posicion": "Mediocentro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 8.0,
+    "edad": 28,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 268,
+    "numero_camiseta": 21,
+    "nombre": "Jonathan Viera",
+    "posicion": "Mediocentro ofensivo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 34,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas",
+      "Valencia Mestalla",
+      "Valencia",
+      "Rayo Vallecano",
+      "Standard de Lieja",
+      "Beijing Guoan",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 269,
+    "numero_camiseta": 24,
+    "nombre": "Pejiño",
+    "posicion": "Extremo derecho",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 28,
+    "clubs": [
+      "Sevilla C",
+      "Sevilla Atlético",
+      "Granada",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 270,
+    "numero_camiseta": 25,
+    "nombre": "Fábio González",
+    "posicion": "Pivote",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 28,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas"
+    ]
+  },
+  {
+    "_id": 271,
+    "numero_camiseta": 7,
+    "nombre": "Sandro Ramírez",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.5,
+    "edad": 29,
+    "clubs": [
+      "FC Barcelona",
+      "Málaga",
+      "Everton",
+      "Sevilla",
+      "Real Sociedad",
+      "Huesca",
+      "Getafe",
+      "Las Palmas"
+    ]
+  },
+  {
+    "_id": 272,
+    "numero_camiseta": 9,
+    "nombre": "Marc Cardona",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.9,
+    "edad": 29,
+    "clubs": [
+      "FC Barcelona",
+      "Eibar",
+      "Osasuna",
+      "Mallorca",
+      "Las Palmas"
+    ]
+  },
+  {
+    "_id": 273,
+    "numero_camiseta": 17,
+    "nombre": "Jaime Mata",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 0.6,
+    "edad": 36,
+    "clubs": [
+      "Rayo Vallecano",
+      "Lleida Esportiu",
+      "Girona",
+      "Real Valladolid",
+      "Getafe",
+      "Las Palmas"
+    ]
+  },
+  {
+    "_id": 274,
+    "numero_camiseta": 19,
+    "nombre": "Munir El Haddadi",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Marruecos",
+      "España"
+    ],
+    "valor_mercado_mill_eur": 2.0,
+    "edad": 29,
+    "clubs": [
+      "FC Barcelona",
+      "Valencia",
+      "Alavés",
+      "Sevilla",
+      "Getafe",
+      "Las Palmas"
+    ]
+  },
+  {
+    "_id": 275,
+    "numero_camiseta": 22,
+    "nombre": "Benito Ramírez",
+    "posicion": "Extremo izquierdo",
+    "nacionalidad": [
+      "España"
+    ],
+    "valor_mercado_mill_eur": 1.0,
+    "edad": 29,
+    "clubs": [
+      "UD Las Palmas Atlético",
+      "UD Las Palmas",
+      "Barakaldo CF",
+      "Majadahonda"
+    ]
+  },
+  {
+    "_id": 276,
+    "numero_camiseta": 26,
+    "nombre": "Sory Kaba",
+    "posicion": "Delantero centro",
+    "nacionalidad": [
+      "Guinea"
+    ],
+    "valor_mercado_mill_eur": 1.5,
+    "edad": 29,
+    "clubs": [
+      "Djólíba AC",
+      "Elche Ilicitano",
+      "Elche",
+      "Dijon FCO",
+      "FC Midtjylland",
+      "FC København",
+      "UD Las Palmas"
+    ]
+  }
+]
